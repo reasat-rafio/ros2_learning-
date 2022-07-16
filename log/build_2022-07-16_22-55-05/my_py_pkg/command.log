@@ -1,0 +1,1 @@
+Invoking command in '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/build

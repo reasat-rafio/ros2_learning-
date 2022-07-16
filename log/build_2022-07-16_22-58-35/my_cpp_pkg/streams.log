@@ -1,0 +1,11 @@
+[0.039s] Invoking command in '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.161s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[0.166s] [ 75%] Built target cpp_node
+[0.172s] [01m[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/robot_news_station.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/String.hpp: No such file or directory
+[0.173s]     1 | #include [01;31m[K"example_interfaces/msg/String.hpp"[m[K
+[0.173s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.173s] compilation terminated.
+[0.174s] gmake[2]: *** [CMakeFiles/robot_news_station.dir/build.make:76: CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o] Error 1
+[0.174s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/robot_news_station.dir/all] Error 2
+[0.174s] gmake: *** [Makefile:146: all] Error 2
+[0.366s] Invoked command in '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg -- -j12 -l12
