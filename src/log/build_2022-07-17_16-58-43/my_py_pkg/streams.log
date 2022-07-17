@@ -1,0 +1,58 @@
+[0.501s] Invoking command in '/home/alrraf/Code/learning/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build install --prefix /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg --record /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed
+[0.685s] running egg_info
+[0.686s] creating ../build/my_py_pkg/my_py_pkg.egg-info
+[0.686s] writing ../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.686s] writing dependency_links to ../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.687s] writing entry points to ../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.687s] writing requirements to ../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.687s] writing top-level names to ../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.687s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.688s] reading manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.689s] writing manifest file '../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.689s] running build
+[0.689s] running build_py
+[0.689s] creating /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build
+[0.689s] creating /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib
+[0.690s] creating /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.690s] copying my_py_pkg/robot_news_station.py -> /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.690s] copying my_py_pkg/__init__.py -> /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.690s] copying my_py_pkg/my_first_node.py -> /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.690s] copying my_py_pkg/smartphone.py -> /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.691s] copying my_py_pkg/add_two_ints_server.py -> /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.691s] copying my_py_pkg/add_two_ints_client.py -> /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.691s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg
+[0.691s] running install
+[0.692s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.692s]   warnings.warn(
+[0.692s] running install_lib
+[0.692s] creating /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.692s] copying /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.692s] copying /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.692s] copying /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.693s] copying /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.693s] copying /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.693s] copying /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.693s] copying /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.693s] byte-compiling /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[0.694s] byte-compiling /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[0.694s] byte-compiling /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[0.694s] byte-compiling /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[0.694s] byte-compiling /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[0.694s] byte-compiling /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[0.695s] byte-compiling /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[0.695s] running install_data
+[0.695s] creating /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/share/ament_index
+[0.695s] creating /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index
+[0.695s] creating /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.695s] copying resource/my_py_pkg -> /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.695s] copying package.xml -> /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/share/my_py_pkg
+[0.696s] running install_egg_info
+[0.696s] Copying ../build/my_py_pkg/my_py_pkg.egg-info to /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.696s] running install_scripts
+[0.714s] Installing add_two_ints_clinet_no_oop script to /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.714s] Installing add_two_ints_server script to /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.714s] Installing py_node script to /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.714s] Installing robot_news_station script to /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.714s] Installing smartphone script to /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/my_py_pkg
+[0.715s] writing list of installed files to '/home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/install.log'
+[0.750s] Invoked command in '/home/alrraf/Code/learning/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_py_pkg build --build-base /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/build install --prefix /home/alrraf/Code/learning/ros2_ws/src/install/my_py_pkg --record /home/alrraf/Code/learning/ros2_ws/src/build/my_py_pkg/install.log --single-version-externally-managed
