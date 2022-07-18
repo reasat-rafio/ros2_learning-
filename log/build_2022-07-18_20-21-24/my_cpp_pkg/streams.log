@@ -1,0 +1,61 @@
+[0.022s] Invoking command in '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.093s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.254s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.301s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.305s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.317s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.416s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.419s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.540s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.697s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.893s] -- Configuring done
+[0.927s] -- Generating done
+[0.929s] -- Build files have been written to: /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg
+[0.955s] [35m[1mConsolidate compiler generated dependencies of target robot_news_station[0m
+[0.955s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop[0m
+[0.955s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.955s] [35m[1mConsolidate compiler generated dependencies of target smartphone[0m
+[0.956s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[0.965s] [  8%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[0.973s] [ 75%] Built target smartphone
+[0.973s] [ 75%] Built target add_two_ints_client_no_oop
+[0.973s] [ 75%] Built target robot_news_station
+[0.973s] [ 75%] Built target cpp_node
+[0.977s] [ 83%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[3.285s] [01m[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClient::callAddTwoIntsService(int, int)[m[K’:
+[3.286s] [01m[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:27:29:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kconst class std::exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[3.286s]    27 |         } catch (const std::[01;35m[Kexception[m[K) {
+[3.286s]       |                             [01;35m[K^~~~~~~~~[m[K
+[4.463s] [ 91%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[4.539s] [100%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[4.737s] [100%] Built target add_two_ints_server
+[4.750s] [100%] Built target add_two_ints_client
+[4.761s] Invoked command in '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[4.806s] Invoking command in '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg
+[4.815s] -- Install configuration: ""
+[4.816s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[4.816s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station
+[4.816s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone
+[4.817s] -- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server
+[4.818s] -- Set runtime path of "/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server" to ""
+[4.819s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop
+[4.819s] -- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client
+[4.820s] -- Set runtime path of "/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client" to ""
+[4.820s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.820s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.820s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.820s] -- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.820s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.820s] -- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.820s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.820s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.820s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.820s] -- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.821s] -- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.821s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.821s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.821s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.821s] -- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.824s] Invoked command in '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg

@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target add_two_ints_client[0m
+[ 83%] Built target cpp_node
+[ 83%] Built target add_two_ints_server
+[ 83%] Built target smartphone
+[ 83%] Built target robot_news_station
+[ 83%] Built target add_two_ints_client_no_oop
+[ 91%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[01m[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClient::callAddTwoIntsService(int, int)[m[K’:
+[01m[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:27:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst[m[K’ qualifiers cannot be applied to ‘[01m[Kstd::exception&[m[K’
+   27 |         } catch (std::exception &[01;31m[Kconst[m[K) {
+      |                                  [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/add_two_ints_client.dir/build.make:76: CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/add_two_ints_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

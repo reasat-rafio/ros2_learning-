@@ -1,0 +1,4 @@
+[01m[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsClient::callAddTwoIntsService(int, int)[m[K’:
+[01m[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/add_two_ints_client.cpp:27:39:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kconst class std::exception[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+   27 |         } catch (const std::exception [01;35m[Ke[m[K) {
+      |                                       [01;35m[K^[m[K
