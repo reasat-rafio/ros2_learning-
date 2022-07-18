@@ -4,7 +4,8 @@
 class AddTwoIntsClient : public rclcpp::Node {
 public:
     AddTwoIntsClient() : Node("add_two_ints_client") {
-        thread1_ = std::thread(std::bind(&AddTwoIntsClient::callAddTwoIntsService, this, 1, 4));
+        // thread1_ = std::thread(std::bind(&AddTwoIntsClient::callAddTwoIntsService, this, 1, 4));
+        threads_.push_back(std::thread(std::bind(&AddTwoIntsClient::callAddTwoIntsService, this, 1, 4)));
     }
 
     void callAddTwoIntsService(int a, int b) {
@@ -30,7 +31,8 @@ public:
     }
 
 private:
-    std::thread thread1_;
+    // std::thread thread1_;
+    std::vector<std::thread> threads_;
 };
 
 int main(int argc, char *argv[]) {
