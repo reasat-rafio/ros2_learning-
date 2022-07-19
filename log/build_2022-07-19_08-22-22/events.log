@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000389] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000487] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000537] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.023389] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.026292] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.028237] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('USER', 'alrraf'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('LC_TIME', 'bn_BD'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1914'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XCURSOR_SIZE', '24'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alrraf'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('TERM_PROGRAM_VERSION', '1.69.1'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/alrraf/.gtkrc:/home/alrraf/.config/gtkrc'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'bn_BD'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1755'), ('SYSTEMD_EXEC_PID', '2671'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/plasma.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install:/home/alrraf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alrraf'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '8:33577'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/plasma.default.path'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/alrraf/.gtkrc-2.0:/home/alrraf/.config/gtkrc-2.0'), ('PATH', '/home/alrraf/.local/bin:/opt/ros/humble/bin:/home/alrraf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vltg3:@/tmp/.ICE-unix/2285,unix/vltg3:/tmp/.ICE-unix/2285'), ('INVOCATION_ID', 'bdb6520e8fff4a83ae9801a951e582df'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('LC_ADDRESS', 'bn_BD'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'Oxygen_Zion'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'bn_BD'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/alrraf/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b3068bfcb6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXSnch3H/agent.1829'), ('AMENT_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bn_BD'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bn_BD'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'bn_BD'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/alrraf/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/alrraf/ros2_ws/build/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bn_BD'), ('LC_PAPER', 'bn_BD'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098359] (-) TimerEvent: {}
+[0.158549] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198544] (-) TimerEvent: {}
+[0.299122] (-) TimerEvent: {}
+[0.399677] (-) TimerEvent: {}
+[0.404103] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.472527] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.477127] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.489555] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.499800] (-) TimerEvent: {}
+[0.512225] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.541999] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600029] (-) TimerEvent: {}
+[0.648570] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.653433] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700225] (-) TimerEvent: {}
+[0.800670] (-) TimerEvent: {}
+[0.835551] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900859] (-) TimerEvent: {}
+[1.001362] (-) TimerEvent: {}
+[1.072455] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.101486] (-) TimerEvent: {}
+[1.201836] (-) TimerEvent: {}
+[1.302208] (-) TimerEvent: {}
+[1.379103] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.402288] (-) TimerEvent: {}
+[1.429348] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.432227] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg\n'}
+[1.465255] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client_no_oop\x1b[0m\n'}
+[1.465650] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_client\x1b[0m\n'}
+[1.465811] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target number_publisher\x1b[0m\n'}
+[1.465990] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target smartphone\x1b[0m\n'}
+[1.466254] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[1.466382] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[1.466496] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target add_two_ints_server\x1b[0m\n'}
+[1.478580] (my_cpp_pkg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[1.489626] (my_cpp_pkg) StdoutLine: {'line': b'[ 18%] Built target smartphone\n'}
+[1.491057] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target number_publisher\n'}
+[1.491354] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target add_two_ints_client\n'}
+[1.491479] (my_cpp_pkg) StdoutLine: {'line': b'[ 56%] Built target add_two_ints_client_no_oop\n'}
+[1.491760] (my_cpp_pkg) StdoutLine: {'line': b'[ 68%] Built target cpp_node\n'}
+[1.493552] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] Built target add_two_ints_server\n'}
+[1.493858] (my_cpp_pkg) StdoutLine: {'line': b'[ 93%] Built target robot_news_station\n'}
+[1.502512] (-) TimerEvent: {}
+[1.602829] (-) TimerEvent: {}
+[1.703198] (-) TimerEvent: {}
+[1.803587] (-) TimerEvent: {}
+[1.903996] (-) TimerEvent: {}
+[2.004482] (-) TimerEvent: {}
+[2.104966] (-) TimerEvent: {}
+[2.205455] (-) TimerEvent: {}
+[2.305968] (-) TimerEvent: {}
+[2.406555] (-) TimerEvent: {}
+[2.507053] (-) TimerEvent: {}
+[2.607536] (-) TimerEvent: {}
+[2.708035] (-) TimerEvent: {}
+[2.808650] (-) TimerEvent: {}
+[2.909193] (-) TimerEvent: {}
+[3.009680] (-) TimerEvent: {}
+[3.110212] (-) TimerEvent: {}
+[3.210741] (-) TimerEvent: {}
+[3.311274] (-) TimerEvent: {}
+[3.411751] (-) TimerEvent: {}
+[3.512151] (-) TimerEvent: {}
+[3.612644] (-) TimerEvent: {}
+[3.713148] (-) TimerEvent: {}
+[3.813639] (-) TimerEvent: {}
+[3.914133] (-) TimerEvent: {}
+[4.014635] (-) TimerEvent: {}
+[4.115140] (-) TimerEvent: {}
+[4.215648] (-) TimerEvent: {}
+[4.316151] (-) TimerEvent: {}
+[4.407875] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.408216] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.408330] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.408430] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.408523] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.408619] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.408723] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.408815] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.408908] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.409002] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.409096] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.409190] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:2\x1b[m\x1b[K:\n'}
+[4.409282] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid NumberCounterNode::callbackNumberSubscriber(example_interfaces::msg::Int64_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.409385] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:23:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::msg::Int64_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.409486] (my_cpp_pkg) StderrLine: {'line': b'   23 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"subscriber recived = %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmsg->data\x1b[m\x1b[K);\n'}
+[4.409578] (my_cpp_pkg) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.409678] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.409779] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[Kexample_interfaces::msg::Int64_<std::allocator<void> >::_data_type {aka long int}\x1b[m\x1b[K\n'}
+[4.409873] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/number_counter.cpp:23:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.409968] (my_cpp_pkg) StderrLine: {'line': b'   23 |         RCLCPP_INFO(this->get_logger(), "subscriber recived = \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", msg->data);\n'}
+[4.410062] (my_cpp_pkg) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.410153] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.410266] (my_cpp_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.410356] (my_cpp_pkg) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.416232] (-) TimerEvent: {}
+[4.516574] (-) TimerEvent: {}
+[4.617070] (-) TimerEvent: {}
+[4.717582] (-) TimerEvent: {}
+[4.818082] (-) TimerEvent: {}
+[4.918584] (-) TimerEvent: {}
+[5.019048] (-) TimerEvent: {}
+[5.119443] (-) TimerEvent: {}
+[5.219954] (-) TimerEvent: {}
+[5.320445] (-) TimerEvent: {}
+[5.420957] (-) TimerEvent: {}
+[5.521447] (-) TimerEvent: {}
+[5.621940] (-) TimerEvent: {}
+[5.722564] (-) TimerEvent: {}
+[5.823044] (-) TimerEvent: {}
+[5.923598] (-) TimerEvent: {}
+[6.024061] (-) TimerEvent: {}
+[6.124466] (-) TimerEvent: {}
+[6.224849] (-) TimerEvent: {}
+[6.325223] (-) TimerEvent: {}
+[6.425576] (-) TimerEvent: {}
+[6.525928] (-) TimerEvent: {}
+[6.626327] (-) TimerEvent: {}
+[6.726724] (-) TimerEvent: {}
+[6.827130] (-) TimerEvent: {}
+[6.927535] (-) TimerEvent: {}
+[7.028096] (-) TimerEvent: {}
+[7.128624] (-) TimerEvent: {}
+[7.229117] (-) TimerEvent: {}
+[7.329609] (-) TimerEvent: {}
+[7.430088] (-) TimerEvent: {}
+[7.530545] (-) TimerEvent: {}
+[7.630977] (-) TimerEvent: {}
+[7.731482] (-) TimerEvent: {}
+[7.831996] (-) TimerEvent: {}
+[7.932497] (-) TimerEvent: {}
+[8.032981] (-) TimerEvent: {}
+[8.133468] (-) TimerEvent: {}
+[8.233959] (-) TimerEvent: {}
+[8.334476] (-) TimerEvent: {}
+[8.434841] (-) TimerEvent: {}
+[8.535239] (-) TimerEvent: {}
+[8.635776] (-) TimerEvent: {}
+[8.736276] (-) TimerEvent: {}
+[8.836759] (-) TimerEvent: {}
+[8.937255] (-) TimerEvent: {}
+[9.037741] (-) TimerEvent: {}
+[9.138222] (-) TimerEvent: {}
+[9.238713] (-) TimerEvent: {}
+[9.339205] (-) TimerEvent: {}
+[9.439704] (-) TimerEvent: {}
+[9.540192] (-) TimerEvent: {}
+[9.640903] (-) TimerEvent: {}
+[9.741416] (-) TimerEvent: {}
+[9.841869] (-) TimerEvent: {}
+[9.942574] (-) TimerEvent: {}
+[10.043081] (-) TimerEvent: {}
+[10.143611] (-) TimerEvent: {}
+[10.244135] (-) TimerEvent: {}
+[10.344629] (-) TimerEvent: {}
+[10.445139] (-) TimerEvent: {}
+[10.545646] (-) TimerEvent: {}
+[10.646145] (-) TimerEvent: {}
+[10.746748] (-) TimerEvent: {}
+[10.847260] (-) TimerEvent: {}
+[10.947777] (-) TimerEvent: {}
+[11.048286] (-) TimerEvent: {}
+[11.148822] (-) TimerEvent: {}
+[11.249576] (-) TimerEvent: {}
+[11.324544] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[11.349937] (-) TimerEvent: {}
+[11.450510] (-) TimerEvent: {}
+[11.550983] (-) TimerEvent: {}
+[11.651465] (-) TimerEvent: {}
+[11.752074] (-) TimerEvent: {}
+[11.852484] (-) TimerEvent: {}
+[11.864456] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target number_counter\n'}
+[11.875567] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[11.906354] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[11.914082] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('USER', 'alrraf'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('LC_TIME', 'bn_BD'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1914'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XCURSOR_SIZE', '24'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alrraf'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('TERM_PROGRAM_VERSION', '1.69.1'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/alrraf/.gtkrc:/home/alrraf/.config/gtkrc'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'bn_BD'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1755'), ('SYSTEMD_EXEC_PID', '2671'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/plasma.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install:/home/alrraf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alrraf'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '8:33577'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/plasma.default.path'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/alrraf/.gtkrc-2.0:/home/alrraf/.config/gtkrc-2.0'), ('PATH', '/home/alrraf/.local/bin:/opt/ros/humble/bin:/home/alrraf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vltg3:@/tmp/.ICE-unix/2285,unix/vltg3:/tmp/.ICE-unix/2285'), ('INVOCATION_ID', 'bdb6520e8fff4a83ae9801a951e582df'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('LC_ADDRESS', 'bn_BD'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'Oxygen_Zion'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'bn_BD'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/alrraf/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b3068bfcb6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXSnch3H/agent.1829'), ('AMENT_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bn_BD'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bn_BD'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'bn_BD'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/alrraf/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/alrraf/ros2_ws/build/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bn_BD'), ('LC_PAPER', 'bn_BD'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[11.920373] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.920566] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node\n'}
+[11.920678] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[11.920831] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[11.921004] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_server\n'}
+[11.921102] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client_no_oop\n'}
+[11.921765] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/add_two_ints_client\n'}
+[11.921957] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_publisher\n'}
+[11.922117] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter\n'}
+[11.925660] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/number_counter" to ""\n'}
+[11.925840] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[11.926005] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[11.926104] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[11.926294] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[11.926442] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[11.926550] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[11.926645] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[11.926739] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[11.926834] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[11.926927] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[11.927028] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[11.927122] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[11.927216] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[11.927308] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[11.927495] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[11.928321] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[11.952608] (-) TimerEvent: {}
+[11.989712] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[11.990486] (-) EventReactorShutdown: {}
