@@ -1,0 +1,14 @@
+[0.014s] Invoking command in '/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/alrraf/Code/learning/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces
+[0.026s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.161s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.161s]   find_package called with invalid argument "rosidl_default_generators"
+[0.161s] 
+[0.161s] [0m
+[0.161s] [31mCMake Error at CMakeLists.txt:12 (target_link_libraries):
+[0.161s]   Cannot specify link libraries for target "my_robot_interfaces" which is not
+[0.161s]   built by this project.
+[0.161s] 
+[0.162s] [0m
+[0.162s] -- Configuring incomplete, errors occurred!
+[0.162s] See also "/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.163s] Invoked command in '/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/alrraf/Code/learning/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces

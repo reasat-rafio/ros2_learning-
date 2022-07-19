@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:10 (find_package):
+  find_package called with invalid argument "rosidl_default_generators"
+
+[0m
+[31mCMake Error at CMakeLists.txt:12 (target_link_libraries):
+  Cannot specify link libraries for target "my_robot_interfaces" which is not
+  built by this project.
+
+[0m
