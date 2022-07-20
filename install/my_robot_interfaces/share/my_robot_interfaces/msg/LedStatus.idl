@@ -5,9 +5,8 @@
 
 module my_robot_interfaces {
   module msg {
-    typedef int32 int32__3[3];
     struct LedStatus {
-      int32__3 led_status;
+      sequence<int32> led_status;
     };
   };
 };

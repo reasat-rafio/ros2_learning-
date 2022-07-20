@@ -115,11 +115,11 @@ inline const char * name<my_robot_interfaces::msg::LedStatus>()
 
 template<>
 struct has_fixed_size<my_robot_interfaces::msg::LedStatus>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<my_robot_interfaces::msg::LedStatus>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<my_robot_interfaces::msg::LedStatus>

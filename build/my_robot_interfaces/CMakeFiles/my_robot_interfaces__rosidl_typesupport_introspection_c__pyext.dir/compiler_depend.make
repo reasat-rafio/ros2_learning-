@@ -248,6 +248,9 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/ro
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__type_support.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__struct.h \
+  rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.h \
   rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
   rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
   rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h \
@@ -263,6 +266,8 @@ rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__type_support.h
 rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h:
 
 rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h:
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -478,6 +483,8 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__struct.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
@@ -519,6 +526,8 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__struct.h:
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c:
 
 rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h:
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__type_support.h:
 
 /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h:
 

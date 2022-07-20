@@ -702,4 +702,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/add_two_ints_client.dir/DependInfo.cmake"
   "CMakeFiles/number_publisher.dir/DependInfo.cmake"
   "CMakeFiles/number_counter.dir/DependInfo.cmake"
+  "CMakeFiles/battery.dir/DependInfo.cmake"
+  "CMakeFiles/led_panel.dir/DependInfo.cmake"
   )

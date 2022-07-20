@@ -1,0 +1,18 @@
+[0.019s] Invoking command in '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces:/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.078s] [ 55%] Built target cpp_node
+[0.078s] [ 55%] Built target robot_news_station
+[0.079s] [ 66%] Built target add_two_ints_client
+[0.079s] [ 55%] [32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[0.079s] [ 83%] Built target add_two_ints_server
+[0.079s] [ 83%] Built target number_publisher
+[0.079s] [ 83%] Built target smartphone
+[0.079s] [ 83%] Built target add_two_ints_client_no_oop
+[0.082s] [ 94%] Built target number_counter
+[0.085s] [01m[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/battery.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/srv/battery_status.hpp: No such file or directory
+[0.085s]     1 | #include [01;31m[K"my_robot_interfaces/srv/battery_status.hpp"[m[K
+[0.085s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.085s] compilation terminated.
+[0.085s] gmake[2]: *** [CMakeFiles/battery.dir/build.make:76: CMakeFiles/battery.dir/src/battery.cpp.o] Error 1
+[0.086s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/battery.dir/all] Error 2
+[0.086s] gmake: *** [Makefile:146: all] Error 2
+[0.088s] Invoked command in '/home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces:/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/alrraf/Code/learning/ros2_ws/build/my_cpp_pkg -- -j12 -l12

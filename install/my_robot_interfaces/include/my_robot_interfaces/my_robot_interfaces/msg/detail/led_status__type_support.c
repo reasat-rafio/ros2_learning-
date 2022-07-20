@@ -12,6 +12,10 @@
 #include "my_robot_interfaces/msg/detail/led_status__struct.h"
 
 
+// Include directives for member types
+// Member `led_status`
+#include "rosidl_runtime_c/primitives_sequence_functions.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -34,24 +38,25 @@ void my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__Le
 size_t my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__size_function__LedStatus__led_status(
   const void * untyped_member)
 {
-  (void)untyped_member;
-  return 3;
+  const rosidl_runtime_c__int32__Sequence * member =
+    (const rosidl_runtime_c__int32__Sequence *)(untyped_member);
+  return member->size;
 }
 
 const void * my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__get_const_function__LedStatus__led_status(
   const void * untyped_member, size_t index)
 {
-  const int32_t * member =
-    (const int32_t *)(untyped_member);
-  return &member[index];
+  const rosidl_runtime_c__int32__Sequence * member =
+    (const rosidl_runtime_c__int32__Sequence *)(untyped_member);
+  return &member->data[index];
 }
 
 void * my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__get_function__LedStatus__led_status(
   void * untyped_member, size_t index)
 {
-  int32_t * member =
-    (int32_t *)(untyped_member);
-  return &member[index];
+  rosidl_runtime_c__int32__Sequence * member =
+    (rosidl_runtime_c__int32__Sequence *)(untyped_member);
+  return &member->data[index];
 }
 
 void my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__fetch_function__LedStatus__led_status(
@@ -76,6 +81,15 @@ void my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__as
   *item = *value;
 }
 
+bool my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__resize_function__LedStatus__led_status(
+  void * untyped_member, size_t size)
+{
+  rosidl_runtime_c__int32__Sequence * member =
+    (rosidl_runtime_c__int32__Sequence *)(untyped_member);
+  rosidl_runtime_c__int32__Sequence__fini(member);
+  return rosidl_runtime_c__int32__Sequence__init(member, size);
+}
+
 static rosidl_typesupport_introspection_c__MessageMember my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__LedStatus_message_member_array[1] = {
   {
     "led_status",  // name
@@ -83,7 +97,7 @@ static rosidl_typesupport_introspection_c__MessageMember my_robot_interfaces__ms
     0,  // upper bound of string
     NULL,  // members of sub message
     true,  // is array
-    3,  // array size
+    0,  // array size
     false,  // is upper bound
     offsetof(my_robot_interfaces__msg__LedStatus, led_status),  // bytes offset in struct
     NULL,  // default value
@@ -92,7 +106,7 @@ static rosidl_typesupport_introspection_c__MessageMember my_robot_interfaces__ms
     my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__get_function__LedStatus__led_status,  // get(index) function pointer
     my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__fetch_function__LedStatus__led_status,  // fetch(index, &value) function pointer
     my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__assign_function__LedStatus__led_status,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
+    my_robot_interfaces__msg__LedStatus__rosidl_typesupport_introspection_c__resize_function__LedStatus__led_status  // resize(index) function pointer
   }
 };
 

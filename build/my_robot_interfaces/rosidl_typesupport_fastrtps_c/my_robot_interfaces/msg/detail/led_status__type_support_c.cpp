@@ -34,6 +34,8 @@ extern "C"
 {
 #endif
 
+#include "rosidl_runtime_c/primitives_sequence.h"  // led_status
+#include "rosidl_runtime_c/primitives_sequence_functions.h"  // led_status
 
 // forward declare type support functions
 
@@ -51,8 +53,9 @@ static bool _LedStatus__cdr_serialize(
   const _LedStatus__ros_msg_type * ros_message = static_cast<const _LedStatus__ros_msg_type *>(untyped_ros_message);
   // Field name: led_status
   {
-    size_t size = 3;
-    auto array_ptr = ros_message->led_status;
+    size_t size = ros_message->led_status.size;
+    auto array_ptr = ros_message->led_status.data;
+    cdr << static_cast<uint32_t>(size);
     cdr.serializeArray(array_ptr, size);
   }
 
@@ -70,8 +73,17 @@ static bool _LedStatus__cdr_deserialize(
   _LedStatus__ros_msg_type * ros_message = static_cast<_LedStatus__ros_msg_type *>(untyped_ros_message);
   // Field name: led_status
   {
-    size_t size = 3;
-    auto array_ptr = ros_message->led_status;
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    if (ros_message->led_status.data) {
+      rosidl_runtime_c__int32__Sequence__fini(&ros_message->led_status);
+    }
+    if (!rosidl_runtime_c__int32__Sequence__init(&ros_message->led_status, size)) {
+      fprintf(stderr, "failed to create array for field 'led_status'");
+      return false;
+    }
+    auto array_ptr = ros_message->led_status.data;
     cdr.deserializeArray(array_ptr, size);
   }
 
@@ -94,8 +106,10 @@ size_t get_serialized_size_my_robot_interfaces__msg__LedStatus(
 
   // field.name led_status
   {
-    size_t array_size = 3;
-    auto array_ptr = ros_message->led_status;
+    size_t array_size = ros_message->led_status.size;
+    auto array_ptr = ros_message->led_status.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     (void)array_ptr;
     size_t item_size = sizeof(array_ptr[0]);
     current_alignment += array_size * item_size +
@@ -130,7 +144,11 @@ size_t max_serialized_size_my_robot_interfaces__msg__LedStatus(
 
   // member: led_status
   {
-    size_t array_size = 3;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));

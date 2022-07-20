@@ -68,7 +68,10 @@ get_serialized_size(
 
   // Member: led_status
   {
-    size_t array_size = 3;
+    size_t array_size = ros_message.led_status.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
     size_t item_size = sizeof(ros_message.led_status[0]);
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
@@ -97,7 +100,11 @@ max_serialized_size_LedStatus(
 
   // Member: led_status
   {
-    size_t array_size = 3;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));

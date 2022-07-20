@@ -35,31 +35,23 @@ struct LedStatus_
 
   explicit LedStatus_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      std::fill<typename std::array<int32_t, 3>::iterator, int32_t>(this->led_status.begin(), this->led_status.end(), 0l);
-    }
+    (void)_init;
   }
 
   explicit LedStatus_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : led_status(_alloc)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      std::fill<typename std::array<int32_t, 3>::iterator, int32_t>(this->led_status.begin(), this->led_status.end(), 0l);
-    }
+    (void)_init;
+    (void)_alloc;
   }
 
   // field types and members
   using _led_status_type =
-    std::array<int32_t, 3>;
+    std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>>;
   _led_status_type led_status;
 
   // setters for named parameter idiom
   Type & set__led_status(
-    const std::array<int32_t, 3> & _arg)
+    const std::vector<int32_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<int32_t>> & _arg)
   {
     this->led_status = _arg;
     return *this;

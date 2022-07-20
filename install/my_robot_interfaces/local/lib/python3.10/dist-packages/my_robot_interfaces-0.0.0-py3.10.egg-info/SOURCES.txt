@@ -6,6 +6,7 @@ my_robot_interfaces.egg-info/dependency_links.txt
 my_robot_interfaces.egg-info/top_level.txt
 my_robot_interfaces/msg/__init__.py
 my_robot_interfaces/msg/_hard_ware_status.py
+my_robot_interfaces/msg/_led_status.py
 my_robot_interfaces/srv/__init__.py
 my_robot_interfaces/srv/_battery_status.py
 my_robot_interfaces/srv/_compute_rectangle_area.py

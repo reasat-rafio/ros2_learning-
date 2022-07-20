@@ -1,1 +1,1 @@
-int32[3] led_status
+int32[] led_status

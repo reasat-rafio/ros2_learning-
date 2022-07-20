@@ -39,21 +39,21 @@ void LedStatus_fini_function(void * message_memory)
 
 size_t size_function__LedStatus__led_status(const void * untyped_member)
 {
-  (void)untyped_member;
-  return 3;
+  const auto * member = reinterpret_cast<const std::vector<int32_t> *>(untyped_member);
+  return member->size();
 }
 
 const void * get_const_function__LedStatus__led_status(const void * untyped_member, size_t index)
 {
   const auto & member =
-    *reinterpret_cast<const std::array<int32_t, 3> *>(untyped_member);
+    *reinterpret_cast<const std::vector<int32_t> *>(untyped_member);
   return &member[index];
 }
 
 void * get_function__LedStatus__led_status(void * untyped_member, size_t index)
 {
   auto & member =
-    *reinterpret_cast<std::array<int32_t, 3> *>(untyped_member);
+    *reinterpret_cast<std::vector<int32_t> *>(untyped_member);
   return &member[index];
 }
 
@@ -75,6 +75,13 @@ void assign_function__LedStatus__led_status(
   item = value;
 }
 
+void resize_function__LedStatus__led_status(void * untyped_member, size_t size)
+{
+  auto * member =
+    reinterpret_cast<std::vector<int32_t> *>(untyped_member);
+  member->resize(size);
+}
+
 static const ::rosidl_typesupport_introspection_cpp::MessageMember LedStatus_message_member_array[1] = {
   {
     "led_status",  // name
@@ -82,7 +89,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember LedStatus_mes
     0,  // upper bound of string
     nullptr,  // members of sub message
     true,  // is array
-    3,  // array size
+    0,  // array size
     false,  // is upper bound
     offsetof(my_robot_interfaces::msg::LedStatus, led_status),  // bytes offset in struct
     nullptr,  // default value
@@ -91,7 +98,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember LedStatus_mes
     get_function__LedStatus__led_status,  // get(index) function pointer
     fetch_function__LedStatus__led_status,  // fetch(index, &value) function pointer
     assign_function__LedStatus__led_status,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
+    resize_function__LedStatus__led_status  // resize(index) function pointer
   }
 };
 

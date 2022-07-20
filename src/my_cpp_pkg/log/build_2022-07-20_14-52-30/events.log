@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000470] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000517] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.010028] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.010178] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/install/my_cpp_pkg'], 'cwd': '/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('USER', 'alrraf'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('LC_TIME', 'bn_BD'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1793'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XCURSOR_SIZE', '24'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alrraf'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src'), ('TERM_PROGRAM_VERSION', '1.69.2'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/alrraf/.gtkrc:/home/alrraf/.config/gtkrc'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'bn_BD'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1622'), ('SYSTEMD_EXEC_PID', '2715'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/plasma.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install:/home/alrraf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alrraf'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '8:40558'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/plasma.default.path'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/alrraf/.gtkrc-2.0:/home/alrraf/.config/gtkrc-2.0'), ('PATH', '/home/alrraf/.local/bin:/opt/ros/humble/bin:/home/alrraf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vltg3:@/tmp/.ICE-unix/2278,unix/vltg3:/tmp/.ICE-unix/2278'), ('INVOCATION_ID', 'c3b5af9d2c8e4f9f884ff805d50d9bca'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('LC_ADDRESS', 'bn_BD'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'Oxygen_Zion'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'bn_BD'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/alrraf/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b3068bfcb6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXTmkm1N/agent.1682'), ('AMENT_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces:/home/alrraf/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bn_BD'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bn_BD'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'bn_BD'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/alrraf/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/alrraf/ros2_ws/build/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bn_BD'), ('LC_PAPER', 'bn_BD'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces:/home/alrraf/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098975] (-) TimerEvent: {}
+[0.132460] (my_cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.199111] (-) TimerEvent: {}
+[0.217681] (my_cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.233683] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.291340] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.298402] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.298845] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299205] (-) TimerEvent: {}
+[0.299622] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.302250] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.368068] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.375206] (my_cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.375533] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.375752] (my_cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.379444] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399365] (-) TimerEvent: {}
+[0.499864] (-) TimerEvent: {}
+[0.554962] (my_cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter \n'}
+[0.599956] (-) TimerEvent: {}
+[0.646159] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.690186] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.694937] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700077] (-) TimerEvent: {}
+[0.702428] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.715624] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.736185] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800344] (-) TimerEvent: {}
+[0.802003] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.804355] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900463] (-) TimerEvent: {}
+[0.908649] (my_cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.939187] (my_cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.992329] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000572] (-) TimerEvent: {}
+[1.100894] (-) TimerEvent: {}
+[1.153823] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.201020] (-) TimerEvent: {}
+[1.288823] (my_cpp_pkg) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[1.301179] (-) TimerEvent: {}
+[1.384852] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.401338] (-) TimerEvent: {}
+[1.425972] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.429562] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg\n'}
+[1.446758] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[1.450602] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[1.450652] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('USER', 'alrraf'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('LC_TIME', 'bn_BD'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1793'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('XCURSOR_SIZE', '24'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/alrraf'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src'), ('TERM_PROGRAM_VERSION', '1.69.2'), ('DESKTOP_SESSION', 'plasma'), ('ROS_PYTHON_VERSION', '3'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/alrraf/.gtkrc:/home/alrraf/.config/gtkrc'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'bn_BD'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1622'), ('SYSTEMD_EXEC_PID', '2715'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/plasma.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install:/home/alrraf/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'alrraf'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('JOURNAL_STREAM', '8:40558'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/plasma.default.path'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/alrraf/.gtkrc-2.0:/home/alrraf/.config/gtkrc-2.0'), ('PATH', '/home/alrraf/.local/bin:/opt/ros/humble/bin:/home/alrraf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/vltg3:@/tmp/.ICE-unix/2278,unix/vltg3:/tmp/.ICE-unix/2278'), ('INVOCATION_ID', 'c3b5af9d2c8e4f9f884ff805d50d9bca'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('LC_ADDRESS', 'bn_BD'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'Oxygen_Zion'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('LC_TELEPHONE', 'bn_BD'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/alrraf/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b3068bfcb6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXTmkm1N/agent.1682'), ('AMENT_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces:/home/alrraf/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'KDE'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bn_BD'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bn_BD'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'bn_BD'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('XDG_VTNR', '1'), ('PWD', '/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/build/my_cpp_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/alrraf/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/alrraf/ros2_ws/build/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bn_BD'), ('LC_PAPER', 'bn_BD'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces:/home/alrraf/ros2_ws/install/my_cpp_pkg:/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg:/home/alrraf/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[1.501525] (-) TimerEvent: {}
+[1.505256] (my_cpp_pkg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o\x1b[0m\n'}
+[1.505628] (my_cpp_pkg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[1.505920] (my_cpp_pkg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o\x1b[0m\n'}
+[1.506006] (my_cpp_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[1.513218] (my_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oop.dir/src/add_two_ints_client_no_oop.cpp.o\x1b[0m\n'}
+[1.517569] (my_cpp_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[1.523143] (my_cpp_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/battery.dir/src/battery.cpp.o\x1b[0m\n'}
+[1.529560] (my_cpp_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[1.535640] (my_cpp_pkg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[1.536040] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o\x1b[0m\n'}
+[1.545493] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/battery.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interfaces/srv/battery_status.hpp: No such file or directory\n'}
+[1.545778] (my_cpp_pkg) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"my_robot_interfaces/srv/battery_status.hpp"\x1b[m\x1b[K\n'}
+[1.545854] (my_cpp_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.545924] (my_cpp_pkg) StderrLine: {'line': b'compilation terminated.\n'}
+[1.546104] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/led_panel.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmy_robot_interfaces/msg/led_status.hpp: No such file or directory\n'}
+[1.546221] (my_cpp_pkg) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"my_robot_interfaces/msg/led_status.hpp"\x1b[m\x1b[K\n'}
+[1.546308] (my_cpp_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.546380] (my_cpp_pkg) StderrLine: {'line': b'compilation terminated.\n'}
+[1.547242] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/battery.dir/build.make:76: CMakeFiles/battery.dir/src/battery.cpp.o] Error 1\n'}
+[1.547580] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:363: CMakeFiles/battery.dir/all] Error 2\n'}
+[1.548053] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.548226] (my_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/led_panel.dir/build.make:76: CMakeFiles/led_panel.dir/src/led_panel.cpp.o] Error 1\n'}
+[1.548373] (my_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:389: CMakeFiles/led_panel.dir/all] Error 2\n'}
+[1.601648] (-) TimerEvent: {}
+[1.702076] (-) TimerEvent: {}
+[1.802389] (-) TimerEvent: {}
+[1.902855] (-) TimerEvent: {}
+[2.004585] (-) TimerEvent: {}
+[2.106673] (-) TimerEvent: {}
+[2.208544] (-) TimerEvent: {}
+[2.310381] (-) TimerEvent: {}
+[2.411221] (-) TimerEvent: {}
+[2.511764] (-) TimerEvent: {}
+[2.612239] (-) TimerEvent: {}
+[2.712725] (-) TimerEvent: {}
+[2.813218] (-) TimerEvent: {}
+[2.913744] (-) TimerEvent: {}
+[3.014287] (-) TimerEvent: {}
+[3.115115] (-) TimerEvent: {}
+[3.215735] (-) TimerEvent: {}
+[3.322683] (-) TimerEvent: {}
+[3.423446] (-) TimerEvent: {}
+[3.523932] (-) TimerEvent: {}
+[3.624439] (-) TimerEvent: {}
+[3.724950] (-) TimerEvent: {}
+[3.825473] (-) TimerEvent: {}
+[3.926010] (-) TimerEvent: {}
+[4.035632] (-) TimerEvent: {}
+[4.138576] (-) TimerEvent: {}
+[4.240262] (-) TimerEvent: {}
+[4.340957] (-) TimerEvent: {}
+[4.441534] (-) TimerEvent: {}
+[4.542054] (-) TimerEvent: {}
+[4.642538] (-) TimerEvent: {}
+[4.742937] (-) TimerEvent: {}
+[4.843350] (-) TimerEvent: {}
+[4.943839] (-) TimerEvent: {}
+[5.044679] (-) TimerEvent: {}
+[5.145184] (-) TimerEvent: {}
+[5.245761] (-) TimerEvent: {}
+[5.346309] (-) TimerEvent: {}
+[5.446771] (-) TimerEvent: {}
+[5.547256] (-) TimerEvent: {}
+[5.647753] (-) TimerEvent: {}
+[5.748244] (-) TimerEvent: {}
+[5.849425] (-) TimerEvent: {}
+[5.949924] (-) TimerEvent: {}
+[6.050961] (-) TimerEvent: {}
+[6.151421] (-) TimerEvent: {}
+[6.251931] (-) TimerEvent: {}
+[6.352381] (-) TimerEvent: {}
+[6.452861] (-) TimerEvent: {}
+[6.502639] (my_cpp_pkg) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[6.553095] (-) TimerEvent: {}
+[6.653757] (-) TimerEvent: {}
+[6.754361] (-) TimerEvent: {}
+[6.855290] (-) TimerEvent: {}
+[6.933214] (my_cpp_pkg) StdoutLine: {'line': b'[ 55%] Built target cpp_node\n'}
+[6.949540] (my_cpp_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client_no_oop\x1b[0m\n'}
+[6.955420] (-) TimerEvent: {}
+[7.006796] (my_cpp_pkg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_client\x1b[0m\n'}
+[7.055676] (-) TimerEvent: {}
+[7.156423] (-) TimerEvent: {}
+[7.257183] (-) TimerEvent: {}
+[7.357732] (-) TimerEvent: {}
+[7.364415] (my_cpp_pkg) StdoutLine: {'line': b'[ 65%] Built target add_two_ints_client_no_oop\n'}
+[7.410053] (my_cpp_pkg) StdoutLine: {'line': b'[ 65%] Built target add_two_ints_client\n'}
+[7.457878] (-) TimerEvent: {}
+[7.517167] (my_cpp_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable add_two_ints_server\x1b[0m\n'}
+[7.558022] (-) TimerEvent: {}
+[7.658460] (-) TimerEvent: {}
+[7.754206] (my_cpp_pkg) StdoutLine: {'line': b'[ 70%] Built target add_two_ints_server\n'}
+[7.758648] (-) TimerEvent: {}
+[7.859048] (-) TimerEvent: {}
+[7.959458] (-) TimerEvent: {}
+[8.059917] (-) TimerEvent: {}
+[8.083048] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable robot_news_station\x1b[0m\n'}
+[8.160092] (-) TimerEvent: {}
+[8.260552] (-) TimerEvent: {}
+[8.279025] (my_cpp_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable number_publisher\x1b[0m\n'}
+[8.318922] (my_cpp_pkg) StdoutLine: {'line': b'[ 80%] Built target robot_news_station\n'}
+[8.360737] (-) TimerEvent: {}
+[8.461196] (-) TimerEvent: {}
+[8.515394] (my_cpp_pkg) StdoutLine: {'line': b'[ 80%] Built target number_publisher\n'}
+[8.561359] (-) TimerEvent: {}
+[8.661726] (-) TimerEvent: {}
+[8.762094] (-) TimerEvent: {}
+[8.862466] (-) TimerEvent: {}
+[8.962874] (-) TimerEvent: {}
+[9.063264] (-) TimerEvent: {}
+[9.163658] (-) TimerEvent: {}
+[9.264082] (-) TimerEvent: {}
+[9.364490] (-) TimerEvent: {}
+[9.464883] (-) TimerEvent: {}
+[9.565219] (-) TimerEvent: {}
+[9.665549] (-) TimerEvent: {}
+[9.765916] (-) TimerEvent: {}
+[9.866298] (-) TimerEvent: {}
+[9.966725] (-) TimerEvent: {}
+[10.067099] (-) TimerEvent: {}
+[10.167490] (-) TimerEvent: {}
+[10.267988] (-) TimerEvent: {}
+[10.368314] (-) TimerEvent: {}
+[10.468678] (-) TimerEvent: {}
+[10.569073] (-) TimerEvent: {}
+[10.669464] (-) TimerEvent: {}
+[10.769839] (-) TimerEvent: {}
+[10.870215] (-) TimerEvent: {}
+[10.970631] (-) TimerEvent: {}
+[11.070995] (-) TimerEvent: {}
+[11.171362] (-) TimerEvent: {}
+[11.271752] (-) TimerEvent: {}
+[11.372182] (-) TimerEvent: {}
+[11.472601] (-) TimerEvent: {}
+[11.572957] (-) TimerEvent: {}
+[11.673350] (-) TimerEvent: {}
+[11.773753] (-) TimerEvent: {}
+[11.874170] (-) TimerEvent: {}
+[11.974629] (-) TimerEvent: {}
+[12.075027] (-) TimerEvent: {}
+[12.175389] (-) TimerEvent: {}
+[12.275741] (-) TimerEvent: {}
+[12.349236] (my_cpp_pkg) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[12.375895] (-) TimerEvent: {}
+[12.476282] (-) TimerEvent: {}
+[12.576796] (-) TimerEvent: {}
+[12.677219] (-) TimerEvent: {}
+[12.777603] (-) TimerEvent: {}
+[12.870267] (my_cpp_pkg) StdoutLine: {'line': b'[ 85%] Built target smartphone\n'}
+[12.877793] (-) TimerEvent: {}
+[12.978223] (-) TimerEvent: {}
+[13.006339] (my_cpp_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable number_counter\x1b[0m\n'}
+[13.078383] (-) TimerEvent: {}
+[13.178867] (-) TimerEvent: {}
+[13.279318] (-) TimerEvent: {}
+[13.379776] (-) TimerEvent: {}
+[13.480275] (-) TimerEvent: {}
+[13.577163] (my_cpp_pkg) StdoutLine: {'line': b'[ 90%] Built target number_counter\n'}
+[13.578826] (my_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.580401] (-) TimerEvent: {}
+[13.588016] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[13.657586] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[13.668222] (-) EventReactorShutdown: {}

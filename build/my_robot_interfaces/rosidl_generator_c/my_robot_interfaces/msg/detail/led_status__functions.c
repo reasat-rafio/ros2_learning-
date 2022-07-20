@@ -11,6 +11,10 @@
 #include "rcutils/allocator.h"
 
 
+// Include directives for member types
+// Member `led_status`
+#include "rosidl_runtime_c/primitives_sequence_functions.h"
+
 bool
 my_robot_interfaces__msg__LedStatus__init(my_robot_interfaces__msg__LedStatus * msg)
 {
@@ -18,6 +22,10 @@ my_robot_interfaces__msg__LedStatus__init(my_robot_interfaces__msg__LedStatus * 
     return false;
   }
   // led_status
+  if (!rosidl_runtime_c__int32__Sequence__init(&msg->led_status, 0)) {
+    my_robot_interfaces__msg__LedStatus__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -28,6 +36,7 @@ my_robot_interfaces__msg__LedStatus__fini(my_robot_interfaces__msg__LedStatus * 
     return;
   }
   // led_status
+  rosidl_runtime_c__int32__Sequence__fini(&msg->led_status);
 }
 
 bool
@@ -37,10 +46,10 @@ my_robot_interfaces__msg__LedStatus__are_equal(const my_robot_interfaces__msg__L
     return false;
   }
   // led_status
-  for (size_t i = 0; i < 3; ++i) {
-    if (lhs->led_status[i] != rhs->led_status[i]) {
-      return false;
-    }
+  if (!rosidl_runtime_c__int32__Sequence__are_equal(
+      &(lhs->led_status), &(rhs->led_status)))
+  {
+    return false;
   }
   return true;
 }
@@ -54,8 +63,10 @@ my_robot_interfaces__msg__LedStatus__copy(
     return false;
   }
   // led_status
-  for (size_t i = 0; i < 3; ++i) {
-    output->led_status[i] = input->led_status[i];
+  if (!rosidl_runtime_c__int32__Sequence__copy(
+      &(input->led_status), &(output->led_status)))
+  {
+    return false;
   }
   return true;
 }

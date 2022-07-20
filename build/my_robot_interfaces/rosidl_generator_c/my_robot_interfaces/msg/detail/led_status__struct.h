@@ -17,10 +17,14 @@ extern "C"
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'led_status'
+#include "rosidl_runtime_c/primitives_sequence.h"
+
 /// Struct defined in msg/LedStatus in the package my_robot_interfaces.
 typedef struct my_robot_interfaces__msg__LedStatus
 {
-  int32_t led_status[3];
+  rosidl_runtime_c__int32__Sequence led_status;
 } my_robot_interfaces__msg__LedStatus;
 
 // Struct for a sequence of my_robot_interfaces__msg__LedStatus.

@@ -1,0 +1,7 @@
+[01m[K/home/alrraf/Code/learning/ros2_ws/src/my_cpp_pkg/src/battery.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/srv/battery_status.hpp: No such file or directory
+    1 | #include [01;31m[K"my_robot_interfaces/srv/battery_status.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/battery.dir/build.make:76: CMakeFiles/battery.dir/src/battery.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/battery.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
