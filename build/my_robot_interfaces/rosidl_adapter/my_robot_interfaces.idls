@@ -1,1 +1,4 @@
 /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardWareStatus.idl
+/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStatus.idl
+/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangleArea.idl
+/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/BatteryStatus.idl

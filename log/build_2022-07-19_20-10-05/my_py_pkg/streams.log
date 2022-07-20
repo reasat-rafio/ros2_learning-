@@ -1,0 +1,42 @@
+[0.496s] Invoking command in '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/build
+[0.687s] running develop
+[0.687s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.687s]   warnings.warn(
+[0.688s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.689s]   warnings.warn(
+[0.728s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[0.728s]   warnings.warn(
+[0.729s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[0.729s]   warnings.warn(
+[0.859s] Invoked command in '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg --uninstall --editable --build-directory /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/build
+[0.861s] Invoking command in '/home/alrraf/Code/learning/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/build install --prefix /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg --record /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.036s] running egg_info
+[1.037s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.037s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.037s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.038s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.038s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.040s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.042s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.042s] running build
+[1.042s] running build_py
+[1.042s] running install
+[1.043s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.043s]   warnings.warn(
+[1.043s] running install_lib
+[1.044s] running install_data
+[1.044s] running install_egg_info
+[1.046s] removing '/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.046s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.046s] running install_scripts
+[1.064s] Installing add_two_ints_client script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.064s] Installing add_two_ints_client_no_oop script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.064s] Installing add_two_ints_server script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.064s] Installing hardware_status_publisher script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.065s] Installing number_counter script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.065s] Installing number_publisher script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.065s] Installing py_node script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.065s] Installing robot_news_station script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.065s] Installing smartphone script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.065s] writing list of installed files to '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/install.log'
+[1.101s] Invoked command in '/home/alrraf/Code/learning/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/build install --prefix /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg --record /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,35 @@
+[0.798s] Invoking command in '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg': CMAKE_PREFIX_PATH=/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces:/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg --editable --build-directory /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg
+[1.102s] running develop
+[1.102s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.102s]   warnings.warn(
+[1.103s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.104s]   warnings.warn(
+[1.169s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.169s]   warnings.warn(
+[1.169s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.169s]   warnings.warn(
+[1.288s] running egg_info
+[1.288s] writing my_py_pkg.egg-info/PKG-INFO
+[1.289s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.289s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.289s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.289s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.292s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.293s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.294s] running build_ext
+[1.295s] Creating /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.296s] Installing LED_panel script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.296s] Installing add_two_ints_client script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.297s] Installing add_two_ints_client_no_oop script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.297s] Installing add_two_ints_server script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.297s] Installing battery script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.297s] Installing hardware_status_publisher script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.297s] Installing number_counter script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.298s] Installing number_publisher script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.298s] Installing py_node script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.298s] Installing robot_news_station script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.298s] Installing smartphone script to /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.299s] 
+[1.299s] Installed /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg
+[1.299s] running install_data
+[1.350s] Invoked command in '/home/alrraf/Code/learning/ros2_ws/build/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/alrraf/Code/learning/ros2_ws/install/my_robot_interfaces:/home/alrraf/Code/learning/ros2_ws/install/my_cpp_pkg:/home/alrraf/ros2_ws/install/my_cpp_pkg PYTHONPATH=/home/alrraf/Code/learning/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg --editable --build-directory /home/alrraf/Code/learning/ros2_ws/build/my_py_pkg/build --no-deps install_data --install-dir /home/alrraf/Code/learning/ros2_ws/install/my_py_pkg

@@ -83,6 +83,9 @@ rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h: /opt/ros/humble/s
 rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h: rosidl_adapter/my_robot_interfaces/msg/HardWareStatus.idl
+rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h: rosidl_adapter/my_robot_interfaces/msg/LedStatus.idl
+rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h: rosidl_adapter/my_robot_interfaces/srv/ComputeRectangleArea.idl
+rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h: rosidl_adapter/my_robot_interfaces/srv/BatteryStatus.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c__arguments.json
 
@@ -95,8 +98,53 @@ rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__struct.h: ro
 rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__type_support.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__type_support.h
 
+rosidl_generator_c/my_robot_interfaces/msg/led_status.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/led_status.h
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.h
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__struct.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__struct.h
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__type_support.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__type_support.h
+
+rosidl_generator_c/my_robot_interfaces/srv/compute_rectangle_area.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/compute_rectangle_area.h
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
+
+rosidl_generator_c/my_robot_interfaces/srv/battery_status.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/battery_status.h
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.h
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__struct.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__struct.h
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__type_support.h: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__type_support.h
+
 rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c
+
+rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c
 
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c.o: rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c
@@ -112,19 +160,67 @@ CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_rob
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c.s
 
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o: rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o -c /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c
+
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c > CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.i
+
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.s
+
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o: rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o -c /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c > CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.i
+
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.s
+
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.o: rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.o -c /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c
+
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c > CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.i
+
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.s
+
 # Object files for target my_robot_interfaces__rosidl_generator_c
 my_robot_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c.o"
+"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c.o" \
+"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o" \
+"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o" \
+"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.o"
 
 # External object files for target my_robot_interfaces__rosidl_generator_c
 my_robot_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.c.o
+libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c.o
+libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c.o
+libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c.o
 libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/build.make
 libmy_robot_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmy_robot_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libmy_robot_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libmy_robot_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,7 +235,22 @@ CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.h
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__struct.h
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__type_support.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__functions.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__struct.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/led_status__type_support.h
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/hard_ware_status.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/led_status.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/battery_status.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/compute_rectangle_area.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__struct.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__type_support.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h
 	cd /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/alrraf/Code/learning/ros2_ws/src/my_robot_interfaces /home/alrraf/Code/learning/ros2_ws/src/my_robot_interfaces /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces /home/alrraf/Code/learning/ros2_ws/build/my_robot_interfaces/CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend
 

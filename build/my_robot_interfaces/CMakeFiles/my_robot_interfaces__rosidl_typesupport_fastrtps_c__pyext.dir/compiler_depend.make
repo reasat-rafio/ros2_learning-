@@ -247,8 +247,22 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_
   rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.h
+  rosidl_generator_c/my_robot_interfaces/msg/detail/hard_ware_status__functions.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__type_support.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__struct.h \
+  rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.h
 
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__functions.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__type_support.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__functions.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -506,6 +520,8 @@ rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesup
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
+rosidl_generator_c/my_robot_interfaces/srv/detail/battery_status__struct.h:
+
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
@@ -587,6 +603,8 @@ rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_contro
 /usr/include/limits.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_rectangle_area__type_support.h:
 
 /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h:
 

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/BatteryStatus.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    struct BatteryStatus_Request {
+      int64 led_number;
+
+      boolean state;
+    };
+    struct BatteryStatus_Response {
+      boolean success;
+    };
+  };
+};

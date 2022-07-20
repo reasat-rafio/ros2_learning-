@@ -1,4 +1,5 @@
 #include "example_interfaces/srv/add_two_ints.hpp"
+// #include "my_robot_interfaces/msg/HardWareStatus.msg"
 #include "rclcpp/rclcpp.hpp"
 
 int main(int argc, char *argv[]) {

@@ -1,6 +1,9 @@
 {
   "package_name": "my_robot_interfaces",
   "non_idl_tuples": [
-    "/home/alrraf/Code/learning/ros2_ws/src/my_robot_interfaces:msg/HardWareStatus.msg"
+    "/home/alrraf/Code/learning/ros2_ws/src/my_robot_interfaces:msg/HardWareStatus.msg",
+    "/home/alrraf/Code/learning/ros2_ws/src/my_robot_interfaces:msg/LedStatus.msg",
+    "/home/alrraf/Code/learning/ros2_ws/src/my_robot_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/alrraf/Code/learning/ros2_ws/src/my_robot_interfaces:srv/BatteryStatus.srv"
   ]
 }
